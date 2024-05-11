@@ -4,24 +4,24 @@ main{
     align-items: flex-start;/*alineacion Horizontal*/
     gap: 2rem;/*para elementos*/
     padding: 1rem;
+    background-image: url(Imagenes/Background-linhas.png);
+
 }
 
-/*body {
+
+body {
     background: linear-gradient(to top, rgba(1,8,14,1) 0%, rgba(4,24,50,1) 35%, rgba(24,117,233,1) 100%);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    line-height: normal;
-    
-    
+    line-height: normal;  
   }
 
 .banner {
     width: 156.36px;
     padding: 50px;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
     
 }
 
@@ -31,6 +31,15 @@ main{
     position: absolute;
    
 }
+footer{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    color:white;
+    font-weight: bold;
+}
+
+/*
 .timer{
    /* width: 4em;
     /*width: 940px;*/
@@ -46,21 +55,20 @@ main{
  display: block;
 }
 
-
-.mensaje {
+*/
+.text-wrapper {
     font-family: 'Lucida Sans';
-    font-size: 4em;
+    font-size: 2em;
     color: white;
     text-align: left;
     width: fit-content;
-    height: 100%;
+    height: 50%;
     border: 2px solid white;
     border-radius: 3px;
-    /*margin: 0 0;*/
    
-   
-  /*  vertical-align: top;
 }
+
+/*
 .mensaje em{
     font-weight: bold;
 
