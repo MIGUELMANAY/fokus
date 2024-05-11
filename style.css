@@ -1,12 +1,22 @@
-body {
+main{
+    display: flex;
+    justify-content: center; /*alineacion vertical*/
+    align-items: flex-start;/*alineacion Horizontal*/
+    gap: 2rem;/*para elementos*/
+    padding: 1rem;
+}
+
+/*body {
     background: linear-gradient(to top, rgba(1,8,14,1) 0%, rgba(4,24,50,1) 35%, rgba(24,117,233,1) 100%);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    padding: 0px;
-}
+    line-height: normal;
+    
+    
+  }
 
-#banner {
+.banner {
     width: 156.36px;
     padding: 50px;
     display: block;
@@ -14,10 +24,77 @@ body {
     margin-right: auto;
     
 }
-#marcaagua{
+
+.marcaagua{
     width: 100%;
     height: auto;
     position: absolute;
-    top: 0;
-    left: 0;
+   
 }
+.timer{
+   /* width: 4em;
+    /*width: 940px;*/
+   /*position: middle;
+    margin: 0 auto;
+    padding: 5px;
+   box-sizing: border-box;*/
+/* position: relative;
+ width: 35vw;
+ vertical-align: top;
+ border-radius: 10px;
+ border: 2px solid white;
+ display: block;
+}
+
+
+.mensaje {
+    font-family: 'Lucida Sans';
+    font-size: 4em;
+    color: white;
+    text-align: left;
+    width: fit-content;
+    height: 100%;
+    border: 2px solid white;
+    border-radius: 3px;
+    /*margin: 0 0;*/
+   
+   
+  /*  vertical-align: top;
+}
+.mensaje em{
+    font-weight: bold;
+
+}
+
+.titulos {
+    border: 2px solid white;
+    height: max-content;
+    width: 30%;
+    display: block;
+}
+
+
+
+#texto_timer{
+    font-family: 'Lucida Sans';
+    font-size: 10em;
+    vertical-align: center;
+    color: white;
+    text-align: auto;
+    margin: 0;
+    
+
+}
+
+.boton2 .botones{
+   position: relative;
+   size: 30%;
+}
+
+.contenedor{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    align-content: auto;
+
+}*/

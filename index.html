@@ -6,17 +6,56 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" type="image/png" sizes="16x16" href="Favicon/Favicon-2.png"> 
+    <link rel="icon" type="image/png" sizes="16x16" href="Favicon/Favicon-2.png">
     <title>Fokus</title>
 </head>
 
 <body>
-    
-    <header>
-        <img id="banner" src="Favicon/Logo.png">
-        
-    </header>
-    <img id="marcaagua" src="Imagenes/Background-linhas.png">
+    <div class="contenedor">
+        <header>
+            <img class="banner" src="Favicon/Logo.png" alt="logo fokus">
+        </header>
+<img class="marcaagua" src="Imagenes/Background-linhas.png">
+   
+    <main class="content">
+        <section class="text-wrapper">
+            <h1 class="mensaje">Optimiza tu productividad, <em>sumérgete en lo que importa.</em></h1>
+        </section>>
+
+        <section class="timer-wrapper">
+            <div class="timer-navigation-wrapper">
+                <div class="timer-menu-navigation--wrapper">
+                   <div class="progress progress--focus" id="focus">
+                    <p>Enfoque</p>
+                   </div>        
+                   <div class="progress" id="short-break">
+                    <p>Descanso Corto</p>
+                   </div>
+                   <div class="progress" id="long-break">
+                    <p>Descanso Largo</p>
+                   </div>
+                </div>
+                <button onclick="" ; id="enfocar_boton">Enfócate</button>
+                <button onclick="" ; id="decansocorto_boton">Descanso Corto</button>
+                <button onclick="" ; id="decansolargo_boton">Descanso Largo</button>
+            </div>
+            <div class="timer_container">
+                <h2><span id="texto_timer">25:00</span></h2>
+            </div>
+            <div class="boton2">
+                <button onclick="" ; id="iniciar_boton">Iniciar</button>
+            </div>
+        </section>
+        </div>
+    </main>    
+</div>
+
+
 </body>
+<script src="app.js"></script>
+
+<footer>
+<p> Desarrollado por Miguel Manay</p>
+</footer>
 
 </html>
